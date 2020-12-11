@@ -9810,19 +9810,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mikke\\.nuget\\packages\\": {}
+    "C:\\Users\\mathi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mikke\\Documents\\GitHub\\NGK3\\NGK_aflevering_3_1\\NGK_aflevering_3_1.csproj",
+      "projectUniqueName": "C:\\Users\\mathi\\Documents\\GitHub\\NGK3\\NGK_aflevering_3_1\\NGK_aflevering_3_1.csproj",
       "projectName": "NGK_aflevering_3_1",
-      "projectPath": "C:\\Users\\mikke\\Documents\\GitHub\\NGK3\\NGK_aflevering_3_1\\NGK_aflevering_3_1.csproj",
-      "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mikke\\Documents\\GitHub\\NGK3\\NGK_aflevering_3_1\\obj\\",
+      "projectPath": "C:\\Users\\mathi\\Documents\\GitHub\\NGK3\\NGK_aflevering_3_1\\NGK_aflevering_3_1.csproj",
+      "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mathi\\Documents\\GitHub\\NGK3\\NGK_aflevering_3_1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
