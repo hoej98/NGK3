@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mikke\\source\\repos\\NGK_aflevering_3_1\\NGK_aflevering_3_1\\NGK_aflevering_3_1.csproj": {}
+    "C:\\Users\\mikke\\Documents\\GitHub\\NGK3\\NGK_aflevering_3_1\\NGK_aflevering_3_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mikke\\source\\repos\\NGK_aflevering_3_1\\NGK_aflevering_3_1\\NGK_aflevering_3_1.csproj": {
+    "C:\\Users\\mikke\\Documents\\GitHub\\NGK3\\NGK_aflevering_3_1\\NGK_aflevering_3_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mikke\\source\\repos\\NGK_aflevering_3_1\\NGK_aflevering_3_1\\NGK_aflevering_3_1.csproj",
+        "projectUniqueName": "C:\\Users\\mikke\\Documents\\GitHub\\NGK3\\NGK_aflevering_3_1\\NGK_aflevering_3_1.csproj",
         "projectName": "NGK_aflevering_3_1",
-        "projectPath": "C:\\Users\\mikke\\source\\repos\\NGK_aflevering_3_1\\NGK_aflevering_3_1\\NGK_aflevering_3_1.csproj",
+        "projectPath": "C:\\Users\\mikke\\Documents\\GitHub\\NGK3\\NGK_aflevering_3_1\\NGK_aflevering_3_1.csproj",
         "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mikke\\source\\repos\\NGK_aflevering_3_1\\NGK_aflevering_3_1\\obj\\",
+        "outputPath": "C:\\Users\\mikke\\Documents\\GitHub\\NGK3\\NGK_aflevering_3_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,9 +38,21 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Lucene.Net": {
+            "BCrypt.Net-Next": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[4.0.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -62,9 +74,25 @@
               "target": "Package",
               "version": "[5.0.0, )"
             },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.8.3, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.4, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
             }
           },
           "imports": [

@@ -1,16 +1,17 @@
 ﻿using System.Text;
 using Microsoft.EntityFrameworkCore;
+using NGK_aflevering_3_1;
 
 namespace NGK_aflevering_3_1
 {
-    public class DatabaseContext : DbContext
+    public class DBContext : DbContext
     {
-        public DatabaseContext()
+        public DBContext()
         {
         }
         protected override void OnConfiguring(DbContextOptionsBuilder ob)
         {
-            ob.UseSqlServer("Data Source=WeatherForecast.db");
+            ob.UseSqlite("Data Source=WeatherForecast.db");
         }
         //Seb: @"Data Source=localhost,1433;Database=vareDatabase;User ID=SA;Password=SecPass1;"
         //Erm: @"Data Source=(localdb)\MSSQLLocalDB;TrustServerCertificate=False;MultiSubnetFailover=False;database=testDB;"
@@ -31,5 +32,8 @@ namespace NGK_aflevering_3_1
             //modelBuilder.ApplyConfiguration(new WeatherForecastConfigurations());
             //modelBuilder.ApplyConfiguration(new LocationConfigurations());
         }
+        public DbSet<User> Users { get; set; }
+
+        public DbSet<NGK_aflevering_3_1.User> User { get; set; }
     }
 }

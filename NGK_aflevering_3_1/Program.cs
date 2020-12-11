@@ -11,7 +11,7 @@ namespace NGK_aflevering_3_1
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static void main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
         }
