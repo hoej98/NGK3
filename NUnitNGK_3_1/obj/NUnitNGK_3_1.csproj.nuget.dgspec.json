@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mikke\\Documents\\GitHub\\NGK3\\NUnitNGK_3_1\\NUnitNGK_3_1.csproj": {}
+    "C:\\Users\\mathi\\Documents\\GitHub\\NGK3\\NUnitNGK_3_1\\NUnitNGK_3_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mikke\\Documents\\GitHub\\NGK3\\NUnitNGK_3_1\\NUnitNGK_3_1.csproj": {
+    "C:\\Users\\mathi\\Documents\\GitHub\\NGK3\\NGK_aflevering_3_1\\NGK_aflevering_3_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mikke\\Documents\\GitHub\\NGK3\\NUnitNGK_3_1\\NUnitNGK_3_1.csproj",
-        "projectName": "NUnitNGK_3_1",
-        "projectPath": "C:\\Users\\mikke\\Documents\\GitHub\\NGK3\\NUnitNGK_3_1\\NUnitNGK_3_1.csproj",
-        "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mikke\\Documents\\GitHub\\NGK3\\NUnitNGK_3_1\\obj\\",
+        "projectUniqueName": "C:\\Users\\mathi\\Documents\\GitHub\\NGK3\\NGK_aflevering_3_1\\NGK_aflevering_3_1.csproj",
+        "projectName": "NGK_aflevering_3_1",
+        "projectPath": "C:\\Users\\mathi\\Documents\\GitHub\\NGK3\\NGK_aflevering_3_1\\NGK_aflevering_3_1.csproj",
+        "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mathi\\Documents\\GitHub\\NGK3\\NGK_aflevering_3_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,6 +27,123 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.8.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mathi\\Documents\\GitHub\\NGK3\\NUnitNGK_3_1\\NUnitNGK_3_1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mathi\\Documents\\GitHub\\NGK3\\NUnitNGK_3_1\\NUnitNGK_3_1.csproj",
+        "projectName": "NUnitNGK_3_1",
+        "projectPath": "C:\\Users\\mathi\\Documents\\GitHub\\NGK3\\NUnitNGK_3_1\\NUnitNGK_3_1.csproj",
+        "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mathi\\Documents\\GitHub\\NGK3\\NUnitNGK_3_1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\mathi\\Documents\\GitHub\\NGK3\\NGK_aflevering_3_1\\NGK_aflevering_3_1.csproj": {
+                "projectPath": "C:\\Users\\mathi\\Documents\\GitHub\\NGK3\\NGK_aflevering_3_1\\NGK_aflevering_3_1.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -66,6 +183,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
