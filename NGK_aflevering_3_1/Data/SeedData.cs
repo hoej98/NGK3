@@ -84,6 +84,8 @@ namespace NGK_aflevering_3_1
                 context.Users.Add(
                     new User
                     {
+                        FirstName = "Admin",
+                        LastName = "Admin",
                         Email = "Admin@Admin.com",
                         PwHash = HashPassword("Admin", BcryptWorkFactor)
                     }
