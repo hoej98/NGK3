@@ -136,7 +136,7 @@ namespace NGK_aflevering_3_1.Controllers
             return await _context.WeatherForecasts.Include(x => x.Location).Where(x => x.Date.Date == date.Date).ToListAsync();
         }
 
-        // GET: api/WeatherForecasts/*DATE*
+        // GET: api/WeatherForecasts/*DATE*/*DATE*
         [HttpGet("{start}/{end}")]
         public async Task<ActionResult<IEnumerable<WeatherForecast>>> GetDate(DateTime start, DateTime end)
         {
